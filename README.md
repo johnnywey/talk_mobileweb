@@ -13,8 +13,8 @@
 ---
 Hi, I'm Johnny Wey.
 
-* [https://twitter.com/johnnywey](Twitter)
-* [https://github.com/johnnywey](Github)
+* [Twitter](https://twitter.com/johnnywey)
+* [Github](https://github.com/johnnywey)
 
 I'm going to talk about making legacy websites work better on mobile devices.
 
