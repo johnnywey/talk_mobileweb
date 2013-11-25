@@ -16,10 +16,6 @@ Hi, I'm Johnny Wey.
 * [https://twitter.com/johnnywey](Twitter)
 * [https://github.com/johnnywey](Github)
 
-## Intro
----
-Hi, I'm Johnny Wey.
-
 I'm going to talk about making legacy websites work better on mobile devices.
 
 A "Mobile" device, at least for this talk, is a modern smart phone and / or tablet. The biggest differences between these devices today compared to a traditional PC are screen size, processing power and touch input.
