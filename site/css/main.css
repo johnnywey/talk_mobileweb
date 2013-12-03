@@ -23,8 +23,8 @@ td {
 	text-align: left;
 }
 
-.widget-types {
+.scrollable {
 	height: 200px;
-	overflow: scroll;
+	overflow: auto;
 	/*-webkit-overflow-scrolling: touch;*/
 }

@@ -129,3 +129,5 @@ The concept of both is actually pretty simple:
 The final optimization we can make is to convert some of our simple controls from JavaScript to CSS. Using CSS3 transitions, we can create controls that are typically accelerated by the mobile device's GPU vs. altering DOM elements that aren't.
 
 [Demo Native Controls]
+
+## Debugging
