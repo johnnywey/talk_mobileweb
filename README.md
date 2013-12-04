@@ -28,13 +28,13 @@ Processing power is likely not as big an issue as it was when the iPhone was fir
 	* CSS media queries
 * Favicon
 * Retina images
-* Overflow: touch
+* Touch enabled overflow
 * Click events
-	* Fast button: https://developers.google.com/mobile/articles/fast_buttons
-	* EnergizeJS: https://github.com/davidcalhoun/energize.js
-	* FastClick: https://github.com/ftlabs/fastclick
+	* [Fast button](https://developers.google.com/mobile/articles/fast_buttons)
+	* [EnergizeJS](https://github.com/davidcalhoun/energize.js) 
+	* [FastClick](https://github.com/ftlabs/fastclick)
 * CSS native controls (accordions)
-* Debugging on mobile devices
+* Debugging
 
 ## Karl's Widgets
 ---
