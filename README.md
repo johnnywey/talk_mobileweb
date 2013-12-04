@@ -33,7 +33,7 @@ Processing power is likely not as big an issue as it was when the iPhone was fir
 	* Fast button: https://developers.google.com/mobile/articles/fast_buttons
 	* EnergizeJS: https://github.com/davidcalhoun/energize.js
 	* FastClick: https://github.com/ftlabs/fastclick
-* CSS native controls (tabs, accordions)
+* CSS native controls (accordions)
 * Debugging on mobile devices
 
 ## Karl's Widgets
@@ -128,6 +128,35 @@ The concept of both is actually pretty simple:
 ---
 The final optimization we can make is to convert some of our simple controls from JavaScript to CSS. Using CSS3 transitions, we can create controls that are typically accelerated by the mobile device's GPU vs. altering DOM elements that aren't.
 
-[Demo Native Controls]
+For example, this site is using CSS animations and hidden radio buttons to create an animated accordion with no JavaScript. When an input area is selected, we set the max-height (CSS does not yet let you animate the height property).
+
+[Demo Native Controls - Accordion]
 
 ## Debugging
+---
+There are a lot of options when it comes to debugging your application. Certainly, you want to try it in your browser, on the simulator / emulator, and directly on the device. There are some tools we can use to make that easier.
+
+### Browser
+The Chrome debug tools include overrides that help with testing.
+
+<img src="http://johnny-resources.s3.amazonaws.com/talks/mobileweb/chrome-debug.png" width="600px"/>
+
+[Demo Chrome Debug]
+
+### Simulator
+Safari's dev tools allow attaching to both the simulator and the device. Since they exist on the same machine, it's a very quick way to troubleshoot issues that show up on the simulator before validating with the device.
+
+[Demo Safari's Dev Tools with Simulator]
+[Demo Safari's Dev Tools with Emulator]
+
+### Adobe Edge Inspect
+Adobe has an application called [Edge Inspect](http://html.adobe.com/edge/inspect/) that is extremely helpful in debugging sites on any mobile device. It consists of three parts:
+
+* An app available in the various app stores
+* A Chrome extension
+* An app downloaded onto the PC itself
+
+Once these three things are installed, you can mirror a browser to a mobile device and even debug on the device using the Chrome dev tools.
+
+[Demo Edge Inspect]
+
